@@ -1,6 +1,7 @@
 name: "Epic Branch Sync (PR Generator)"
 
-# Manual execution only
+# Manual execution
+# Execution on push
 on:
   push:
     branches:
