@@ -2,7 +2,9 @@ name: "Epic Branch Sync (PR Generator)"
 
 # Manual execution only
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - Epic-1
 
 # Ensure the GitHub token has permission to create PRs
 permissions:
