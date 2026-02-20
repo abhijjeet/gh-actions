@@ -22,7 +22,7 @@ jobs:
         target_branch: 
           - Epic-1-1
           - Epic-1-2
-          - Epic-1-2
+          - Epic-1-3
           # Add more active Epic branches here as needed
 
     steps:
